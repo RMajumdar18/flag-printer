@@ -114,7 +114,6 @@ def dhabi_flag():
 while True:
   choice=input("Which flag would you like? 1 for Germany, 2 for Poland, 3 for France, 4 for Bulgaria,5 for Abu Dhabi:")
   speed=int(input("What speed would you like it to go??"))
-  shape=str(input("What shape would you like the turtle to be (Turtle, Square, Triangle,Circle)??"))
 
   if choice=='1':
     turtle.speed(speed)
