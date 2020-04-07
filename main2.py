@@ -115,24 +115,19 @@ while True:
   choice=input("Which flag would you like? 1 for Germany, 2 for Poland, 3 for France, 4 for Bulgaria,5 for Abu Dhabi:")
   speed=int(input("What speed would you like it to go??"))
 
-  if choice=='1':
+  if choice== 1:
     turtle.speed(speed)
-    turtle.shape(shape)
     germany_flag()
-  elif choice == '2':
+  elif choice == 2:
     turtle.speed(speed)
-    turtle.shape(shape)
     poland_flag()
-  elif choice == '3':
+  elif choice == 3:
     turtle.speed(speed)
-    turtle.shape(shape)
     french_flag()
-  elif choice == '4':
-    turtle.shape(shape)
+  elif choice == 4:
     turtle.speed(speed)
     bulgaria_flag()
-  elif choice == '5':
-    turtle.shape(shape)
+  elif choice == 5:
     turtle.speed(speed)
     dhabi_flag()
   else:
